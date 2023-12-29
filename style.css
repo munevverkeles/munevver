@@ -361,7 +361,7 @@ form{
         padding: 20px 30px;
     }
     .columns {
-        margin: 0;
+        margin: 0 !important;
     }
     iframe{
         width: 100%;
