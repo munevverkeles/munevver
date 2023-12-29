@@ -1,0 +1,382 @@
+header {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    padding: 18px 100px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    border-bottom: 1px solid #36363652;
+}
+
+
+.logo {
+    width: 10%;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.menu a{
+    color: #363636;
+}
+body{
+    font-family: 'Oswald', sans-serif !important;
+}
+h1{
+    font-size: 40px !important;
+    font-weight: bold !important;
+}
+h2{
+    font-size: 25px !important;
+    font-weight: 600 !important;
+}
+h3{
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+.banner {
+    background: url(img/banner.jpeg);
+    background-size: cover;
+    padding: 15% 0;
+    background-position: center;
+}
+.banner .column {
+    padding: 0 100px;
+}
+.banner h1{
+    font-size: 60px !important  ;
+}
+.banner small{
+    font-size: 20px;
+}
+section{
+    margin: 50px 0 !important;
+}
+.transtext {
+    font-size: 120px;
+    letter-spacing: 10px;
+    color: #0000000f;
+    font-weight: bolder;
+    margin-bottom: -80px;
+}
+.whatis{
+    padding-right: 20px;
+    margin: auto;
+    display: block;
+}
+.contents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contents i {
+    font-size: 30px;
+    margin-right: 20px;
+}   
+.contents p {
+    width: 100%;
+    display: block;
+}
+.contents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 40px 0;
+}
+.gray_bg {
+    background-color: #eee;
+    padding: 50px 0;
+}
+img.contents-img {
+    width: 30%;
+}
+img.contents-drop {
+    width: 8%;
+    position: sticky;
+    top: 150px;
+    margin-left: -20px;
+    margin-top: 50px;
+}
+.contents-colum{
+    display: flex !important;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.contentstitle {
+    width: 100%;
+    font-size: 50px !important;
+    text-align: center;
+    margin-bottom: 82px !important;
+}
+.btn {
+    padding: 20px;
+    display: block;
+    width: fit-content;
+    background-color: #363636;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #363636;
+}
+.btn:hover {
+    background-color: white;
+    color: #363636;
+}
+footer {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 0;
+    align-items: center;
+    background-color: #363636;
+}
+footer img {
+    width: 10%;
+}
+footer ul.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}   
+footer .menu li a{
+    color: white;
+}
+footer i{
+    color: white;
+}
+.product {
+    border-radius: 5px;
+    padding: 20px;
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+}
+.product img {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+.product .name {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #363636;
+}
+.product .stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.product .stars i {
+    color: #ffb600;
+}
+.product .price {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+del.discount {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+.product .btn {
+    margin: auto;
+    padding: 15px;
+    margin-top: 10px;
+}
+.product .desc{
+    text-align: center;
+    color: black;
+}
+h1.products{
+    margin-bottom: 60px !important;
+}
+img.sticky {
+    width: 100%;
+    position: sticky;
+    top: 70px;
+}
+input.amount {
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    padding-left: 15px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #363636;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.icons {
+    margin: 30px 0;
+    font-size: 20px;
+}
+.icons i {
+    font-size: 30px;
+    margin-right: 20px;
+}
+iframe {
+    width: 90%;
+    height: 400px !important;
+}
+form{
+    position: sticky;
+    top: 120px;
+}
+.menu {
+    display: flex;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-toggle span {
+    height: 3px;
+    width: 25px;
+    background-color: #000;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 50%;
+    }
+    .menu ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        padding: 20px;
+    }
+    .logo img {
+        height: auto;
+        max-width: 75%;
+    }    
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+      }
+    
+      .menu.show {
+        display: flex;
+        padding: 40px 0;
+        border-top: 1px solid;
+        margin: 15px 0;
+    }
+    
+      .menu-toggle {
+        display: flex;
+        width: 100px;
+        margin-bottom: 15px;
+    }
+    footer ul.menu {
+        display: none;
+    }
+    .transtext {
+        font-size: 70px;
+        letter-spacing: 10px;
+        color: #0000000f;
+        font-weight: bolder;
+        margin-bottom: -40px;
+        line-height: 80px;
+    }
+    .container{
+        padding: 0 20px;
+    }
+    .banner {
+        background: url(img/banner.jpeg);
+        background-size: cover;
+        padding: 15% 0;
+        background-position: left;
+        margin-bottom: 300px;
+    }
+    .banner .column {
+        padding: 0;
+    }
+    .mobilbanner {
+        position: relative;
+        top: 300px;
+        background-color: #E3E3D9;
+    }
+    .mobilcontainer{
+        padding: 0 !important;
+    }
+    .column.mobilbanner * {
+        padding: 20px 30px;
+    }
+    .columns {
+        margin: 0;
+    }
+    iframe{
+        width: 100%;
+    }
+    footer {
+        display: flex !important;
+        flex-direction: column;
+    }
+    footer img {
+        width: 50%;
+    }
+    .social {
+        margin-top: 30px;
+    }
+    .social i {
+        font-size: 30px;
+    }
+}

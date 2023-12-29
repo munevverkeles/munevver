@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css" />
+    <script src="https://kit.fontawesome.com/e3ee6400c2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Munevver Keles</title>
+</head>
+<header>
+    <a href="index.html"><div class="logo"><img src="img/logo.png" alt=""></div></a>
+    <div class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu">
+        <ul>
+            <li class=""><a href="index.html">Home</a></li>
+            <li class=""><a href="serums.html">Serums</a></li>
+            <li class=""><a href="about-us.html">About Us</a></li>
+            <li class=""><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<div class="gray_bg">
+    <div class="container">
+    <div class="columns">
+    <div class="column">
+        <p class="transtext">Contact Me</p>
+        <h1 class="title">Contact</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eum ipsa architecto eius accusantium adipisci aperiam, veniam earum delectus totam esse! Dolore fugit delectus alias ad culpa repellat laudantium asperiores!</p>
+        <div class="icons">
+            <i class="fa-solid fa-phone"></i>
+            +90 (545) 921 4393
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-envelope"></i>
+            munevver.keles@bahcesehir.edu.tr
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.1155966082188!2d28.672378376445284!3d41.04460111718692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7f467bbff51%3A0x24b2b99a7c3850b4!2sCumartesi%20pazar%C4%B1!5e0!3m2!1str!2str!4v1703848005988!5m2!1str!2str"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="column is-5">
+        <form action="submit_form.php" method="post">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+<footer>
+    <img src="img/logo-w.png" alt="">
+    <ul class="menu">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class=""><a href="serums.html">Serums</a></li>
+        <li class=""><a href="about-us.html">About Us</a></li>
+        <li class=""><a href="index.html">Contact</a></li>
+    </ul>
+    <div class="social">
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+</footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+  const mobileMenuButton = document.getElementById('mobile-menu');
+  const menu = document.querySelector('.menu');
+
+  mobileMenuButton.addEventListener('click', function () {
+    menu.classList.toggle('show');
+  });
+});
+</script>
+</body>
+</html>
